@@ -1,0 +1,27 @@
+{
+  "name": "podcasts",
+  "version": "1.0.0",
+  "description": "podcasts-nextjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [
+    "nextjs",
+    "podcasts"
+  ],
+  "author": "OskarTurkowsky",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^7.0.2",
+    "next-routes": "^1.4.2",
+    "nprogress": "^0.2.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "slugify": "^1.3.4"
+  }
+}
